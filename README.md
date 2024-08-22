@@ -1,13 +1,13 @@
 # Python-
 Python 100% 
 -- Apuntes de Python hasta el tema 9 
-## Proyecto 10 Juego Marcianos
-## Proyecto 11 Extrator de datos web
-## Proyecto 12 Gestor de restaurante
-## Proyecto 13 Asistente de voz
-## Proyecto 14 Controlador Facial Scaner
-## Proyecto 15 Machine learnig introduccion (Graficos) 
-## Configuración de `settings.py` en Django
+### Proyecto 10 Juego Marcianos
+### Proyecto 11 Extrator de datos web
+### Proyecto 12 Gestor de restaurante
+### Proyecto 13 Asistente de voz
+### Proyecto 14 Controlador Facial Scaner
+### Proyecto 15 Machine learnig introduccion (Graficos) 
+### Proyecto 16 Configuración de `settings.py` en Django
 
 ```python
 INSTALLED_APPS = [
