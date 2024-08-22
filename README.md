@@ -1,7 +1,7 @@
 # Python-
 Python 100% 
 ## Proyecto 16 
-# Configuración de `settings.py` en Django
+## Configuración de `settings.py` en Django
 
 ```python
 INSTALLED_APPS = [
