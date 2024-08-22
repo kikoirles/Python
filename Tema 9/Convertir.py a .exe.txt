@@ -1,0 +1,39 @@
+# para empezar deberemos crear un crear un progrma
+# descargaremos toda las fuentes implemnetadas en mi caso vamos a convertir el proyecto 10 en un .exe
+
+# “FreeSansBold.ttf”)
+# Crea una función que transforme el nombre de la fuente (“FreeSansBold.ttf”) de string a objeto Bytes. Para eso importamos la librería io,
+# y pasamos como parámetro el nombre de la fuente al almacenar la función en una variable.
+
+import io
+
+def fuente_bytes (fuente):
+    # Abre el archivo TTF en modo lectura binaria
+    with open(fuente, 'rb') as f:
+    # Lee todos los bytes del archivo y los alamacena en una variable
+        ttf_bytes = f.read()
+    # Crea un objeto BytesIO a partir de los bytes del archivo TTF
+    return io.BytesIO(ttf_bytes)
+
+# deberemos cmabiar en nombre de donde ahora se refiere la variable de de estilo de fuente
+
+# Puntaje
+puntaje = 0
+fuente_como_bytes = fuente_bytes("freesansbold.ttf")
+fuente = pygame.font.Font(fuente_como_bytes, 32) # aqui
+texto_x = 10
+texto_y = 10
+
+# Texto final de juego
+fuente_final = pygame.font.Font(fuente_come_bytes, 40) # aqui
+
+def texto_final():
+    mi_fuente_final = fuente_final.render("JUEGO TERMINADO", True, (255, 255, 255))
+    pantalla.blit(mi_fuente_final, (200, 250))
+
+# Ahora en el cmd instlaremos pyinstaller
+    pip install pyinstaller
+# abrimos el cmd y nos ponemos en el mismo sitio donde esta el .py
+# Ejecutamos el siguiente comando
+    pyinstaller - -clean - -onefile - -windowed
+    Invasión_Espacial.py
