@@ -2,16 +2,16 @@
 
 {% block content %}
 
-<div class="barra-superior">
+<div>
     <a href="{% url 'tareas' %}">&#x1F860; Volver</a>
 </div>
 
-<div class="cuerpo-tarjeta">
+<div>
     <form method="POST" action="">
-    {% csrf_token %}
-    {{form.as_p}}
-    <input class='boton' type="submit" value="enviar">
-</form>
+        {% csrf_token %}
+        {{form.as_p}}
+        <input type="submit" value="enviar">
+    </form>
 </div>
 
 {% endblock content %}
