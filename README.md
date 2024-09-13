@@ -7,7 +7,8 @@ Python 100%
 ### Proyecto 13 Asistente de voz
 ### Proyecto 14 Controlador Facial Scaner
 ### Proyecto 15 Machine learnig introduccion (Graficos) 
-### Proyecto 16 Configuración de `settings.py` en Django
+### Proyecto 16 Django 
+Configuración de `settings.py` en Django
 
 ```python
 INSTALLED_APPS = [
