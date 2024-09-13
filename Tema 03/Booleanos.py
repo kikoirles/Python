@@ -6,15 +6,17 @@ print(type(var1))
 print(var1)
 
 numero = 5 > 2 + 3
-print(type(numero))
+print(type(numero)) # Fasle 5>5
+print(numero)
 
-numero = 5 >= 2 + 3
-print(type(numero))
+numero1 = 5 >= 2 + 3
+print(type(numero)) # True 5>= 5
+print(numero1)
 
-numero2 = bool(5 < 6)
+numero2 = bool(5 < 6) # True 5 < 6
 print(numero2)
 
 
-lista = [1,2,3,4]
+lista = [1,2,3,4] # False 5 no esta en lista 
 control = 5 in lista
 print(control)
