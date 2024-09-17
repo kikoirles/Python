@@ -10,8 +10,9 @@ pip install -r requirements.txt
 ```shell
 pip install --upgrade pip
 ```
-Si usas Pycharm como editor de texto importar Modolos de python como interpretes
-setting > Project:() Python interpreter> 
+Si usas Pycharm como editor de texto importar Modolos de python como interpretes <br>
+
+setting > Project:() > Python interpreter (Buscar modulos de importacion de cada proyecto)
 
 ### Proyecto 10 Juego Marcianos
 ### Proyecto 11 Extrator de datos web
