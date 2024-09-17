@@ -1,6 +1,15 @@
 # Python-
 Python 100% 
 -- Apuntes de Python hasta el tema 9 
+
+```shell
+pip install -r requirements.txt
+```
+
+```shell
+pip install --upgrade pip
+```
+
 ### Proyecto 10 Juego Marcianos
 ### Proyecto 11 Extrator de datos web
 ### Proyecto 12 Gestor de restaurante
