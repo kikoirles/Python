@@ -20,3 +20,15 @@ print(numero2)
 lista = [1,2,3,4] # False 5 no esta en lista 
 control = 5 in lista
 print(control)
+
+# Booleano ejemplos
+print(bool(1))
+print(bool(0))
+print(bool(True))
+print(bool(False))
+print(bool(-1))
+print(bool(None))
+print(bool(''))
+print(bool("hello"))
+print(bool([]))
+print(bool([10, 20]))
