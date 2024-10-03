@@ -22,13 +22,13 @@ control = 5 in lista
 print(control)
 
 # Booleano ejemplos
-print(bool(1))
-print(bool(0))
-print(bool(True))
-print(bool(False))
-print(bool(-1))
-print(bool(None))
-print(bool(''))
-print(bool("hello"))
-print(bool([]))
-print(bool([10, 20]))
+print(bool(1))         # True
+print(bool(0))         # False
+print(bool(True))      # True
+print(bool(False))     # False
+print(bool(-1))        # True
+print(bool(None))      # False
+print(bool(''))        # False
+print(bool("hello"))   # True
+print(bool([]))        # False
+print(bool([10, 20]))  # True
