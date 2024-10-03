@@ -93,4 +93,34 @@ elif habla_ingles == True and sabe_python == False:
 else:
     print("Para postularte, necesitas saber programar en Python y tener conocimientos de inglés")
 
+# calculo de circunferencia
+radius = float(input("Introduce el radio: "))
+Pi = 3.14
+Circumference = 2 * radius * Pi
+print(f"La circunferencia es de {Circumference}")
+
+Area = Pi * radius * radius
+print(f"La area es de {Area}")
+
+# Años bisiestos
+year = int(input("Enter the year: "))
+leap_year = (
+    (year % 4 == 0 and year % 100 != 0) or 
+    (year % 400 == 0)
+)
+print(leap_year)
+
+# Calcular impar año
+year = int(input("Enter the year: "))
+if year % 2 != 0:
+    print(f"El año {year} es par")
+else:
+    print(f"El año {year} es impar")
+
+# calcular si un numero esta entre 0 y 10
+number =int(input("Enter the number: "))
+if number >=0 and number <=10:
+    print(f"El numero {number} esta entre 0 y 10")
+else:
+    print(f"El año {number} es mayor de 10 o menor que 0")
 
