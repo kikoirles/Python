@@ -46,9 +46,11 @@ import math
 # Ejemplo de redondeo hacia arriba
 numero = 3.2
 redondeo_arriba = math.ceil(numero)
+print(redondeo_arriba)
 print(f"Redondeo hacia arriba de {numero}: {redondeo_arriba}")
 
 # Ejemplo de redondeo hacia abajo
 redondeo_abajo = math.floor(numero)
+print(redondeo_abajo)
 print(f"Redondeo hacia abajo de {numero}: {redondeo_abajo}")
 
