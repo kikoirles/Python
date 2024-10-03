@@ -1,3 +1,32 @@
+"""
+Camel case
+En Camel case debes empezar con la primera letra minúscula y la primera letra de cada nueva palabra subsecuente en mayúscula:
+
+cosasParaHacer
+edadDelAmigo
+valorFinal
+
+Pascal case
+También conocido como "upper camel case" o "capital case", Pascal case combina palabras poniéndolas todas con la primera letra en mayúscula:
+
+CosasParaHacer
+EdadDelAmigo
+ValorFinal
+
+Snake case
+En Snake case, conocido también como "underscore case", se utiliza guión bajo (underscore) en lugar de espacio para separar las palabras. Cuando snake case está en mayúsculas, se le conoce como "screaming snake case":
+
+cosas_para_hacer
+edad_del_amigo
+valor_final
+
+Kebab case
+En Kebab case se utiliza el guión para combinar las palabras. Cuando el Kebab case está en mayúsculas, se llama "screaming kebab case":
+
+cosas-para-hacer
+edad-del-amigo
+valor-final
+"""
 # Calculo
 
 x2 = 6
